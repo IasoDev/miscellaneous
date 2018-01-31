@@ -1,0 +1,372 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "Gehhilfe",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Krücken",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Rollstuhl",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Gehbock",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Rollator",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Gehgestell",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Stock",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Gehstock",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Rolli",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Gehhilfe",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Medizin",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Tabletten",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Pillen",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Zaubertrank",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Trank",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Hustensaft",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Aspirin",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Schmerzmittel",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Ibuprofen",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Tablette",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Pille",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Heilmittel",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Therapeutikum",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Medikamente",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Pfleger",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Pfleger",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Pflegerin",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Pflegerpersonal",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Krankenschwester",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Schwester",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Arzt",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": [
+          "Was kann ich fragen",
+          "Was ist der Sinn",
+          "Was ist der nächste Schritt",
+          "Wie funktioniert das",
+          "Kannst du mir erklären"
+        ]
+      },
+      {
+        "name": "AMAZON.NoIntent",
+        "samples": [
+          "was anderes",
+          "meine"
+        ]
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "stop",
+          "abbrechen",
+          "stoppen",
+          "Prozess stopppen",
+          "anwendung beenden",
+          "ausschalten",
+          "sei leise",
+          "aufhören zu sprechen",
+          "halts maul",
+          "schleich di"
+        ]
+      },
+      {
+        "name": "AMAZON.YesIntent",
+        "samples": [
+          "Ja das stimmt",
+          "ja es ist richtig",
+          "jawoll"
+        ]
+      },
+      {
+        "name": "Bett",
+        "samples": [
+          "dem bett zu komme",
+          "hilfe beim aufstehen",
+          "aufstehen",
+          "raus gehen",
+          "das Hause verlassen",
+          "das Bett verlassen"
+        ],
+        "slots": []
+      },
+      {
+        "name": "Bewegungshilfe",
+        "samples": [
+          "beim gehen unterstützt",
+          "Bring mir {Gehhilfe}",
+          "brauche {Gehhilfe}",
+          "benötige {Gehhilfe}",
+          "{Gehhilfe} vorbeibringen"
+        ],
+        "slots": [
+          {
+            "name": "Gehhilfe",
+            "type": "Gehhilfe"
+          }
+        ]
+      },
+      {
+        "name": "Dinge_im_Zimmer_schliessen",
+        "samples": [
+          "Kannst du das Fenster schließen",
+          "Tür schließen",
+          "Schließe die Tür",
+          "Schließe das Fenster",
+          "Mir ist kalt. Bitte schließt das Fenster",
+          "Das Fenster muss geschlossen werden",
+          "Das Fenster muss geöffnet werden",
+          "Mir ist heiß. Bitte öffne das Fenster. ",
+          "Mach die Tür zu",
+          "Öffne das Fenster. Ich brauch frische Luft.",
+          "Mach das Fenster auf"
+        ],
+        "slots": []
+      },
+      {
+        "name": "Fernseher",
+        "samples": [
+          "Hilfe mit meinem Fernseher",
+          "Fernseher ausschalten",
+          "Fernseher einschalten",
+          "Neuer Sender",
+          "den Sender wechseln"
+        ],
+        "slots": []
+      },
+      {
+        "name": "Medikamente",
+        "samples": [
+          "Bring {Medizin}",
+          "Wo ist meine {Medizin}",
+          "benötige {Medizin}"
+        ],
+        "slots": [
+          {
+            "name": "Medizin",
+            "type": "Medizin"
+          }
+        ]
+      },
+      {
+        "name": "Notfall",
+        "samples": [
+          "sehr schlecht",
+          "starke Schmerzen",
+          "Hilfe",
+          "mir tut etwas weh",
+          "Mein Herz tut weh"
+        ],
+        "slots": []
+      },
+      {
+        "name": "Toilette",
+        "samples": [
+          "auf Toilette.",
+          "toilette",
+          "klo",
+          "stille örtchen",
+          "mir in die Hose",
+          "ich muss mal"
+        ],
+        "slots": []
+      },
+      {
+        "name": "Verbindung_mit_Pfleger",
+        "samples": [
+          "Verbinde mich mit {Pfleger}",
+          "Ich muss mit dem {Pfleger} sprechen",
+          "Stelle Verbidung zu {Pfleger} her",
+          "Rufe den {Pfleger} an"
+        ],
+        "slots": [
+          {
+            "name": "Pfleger",
+            "type": "Pfleger"
+          }
+        ]
+      }
+    ],
+    "invocationName": "iaso"
+  }
+}
